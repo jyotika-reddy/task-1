@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  body {
+    font-family: "Arial Narrow Bold", sans-serif;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+  }
+  header {
+    background-color: #06172e;
+    padding: 2vh 15vw;
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+  }
+  .highlight {
+    background-color: rgb(105, 152, 55);
+    border-radius: 10px;
+  }
+  #nav-title {
+    font-size: 2.2vw;
+  }
+  .navbar,
+  .nav-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navbar a {
+    font-size: 1vw;
+    padding: 2%;
+  }
+  .nav-button a {
+    font-size: 1vw;
+    padding: 4%;
+  }
+  .navbar a:hover {
+    background-color: rgb(105, 152, 55);
+    border-radius: 10px;
+  }
+  select {
+    color: white;
+    outline: none;
+    border: none;
+    padding: 2% 0;
+    background-color: #06172e;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+  .nav-drop:hover {
+    background-color: rgb(105, 152, 55);
+    border-radius: 10px;
+  }
+  .text-capital {
+    text-transform: uppercase;
+  }
+  .primary-section {
+    box-sizing: border-box;
+    padding: 2vh 15vw;
+    width: 100%;
+    background-color: #06172e;
+    display: flex;
+  }
+  .secondary-section {
+    padding-top: 10vh;
+    box-sizing: border-box;
+    padding: 2vh 15vw;
+    width: 100%;
+    background: #070620;
+    display: flex;
+  }
+  .primary-content {
+    margin-top: 5vh;
+  }
+  .text-small {
+    font-size: 1.2vw;
+    font-family: "Arial Narrow Bold", sans-serif;
+    color: green;
+  }
+  .text-large {
+    margin-top: 2vh;
+    font-size: 3.6vw;
+    margin-bottom: 2vh;
+    font-family: Franklin Gothic Medium;
+  }
+  .text-medium {
+    font-size: 1.4vw;
+  }
+  .button-primary {
+    margin-top: 5vh;
+  }
+  .button-primary a {
+    padding: 2%;
+  }
+  #primary-img {
+    width: 32vw;
+    margin-left: 5vw;
+    margin-top: 2vh;
+  }
+  #secondary-img {
+    margin-top: 3vh;
+    width: 29vw;
+  }
+  .secondary-content {
+    margin-left: 3vw;
+  }
+  .ternary-section {
+    background-color: #06172e;
+    padding: 10vh 15vw;
+  }
+  .ternary-header {
+    text-align: center;
+  }
+  .ternary-description {
+    margin: 0vh 17vw;
+    text-align: center;
+  }
+  .container {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1.5vw;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #254334;
+    border-radius: 4%;
+  }
+  .container .card:hover {
+    border: 2px solid green;
+  }
+  .card-main {
+    border: 1px solid #254334;
+    border-radius: 4% 4% 0vh 0vh;
+    padding: 6vh 2vw 8vh 2vw;
+    height: 11vh;
+  }
+  .card-img {
+    width: 5vw;
+  }
+  .card-mid {
+    display: flex;
+    background: #06172e;
+    margin: 2vh 2vw;
+    padding: 2vh 2vw;
+    justify-content: center;
+    width: 10vw;
+    border: 1px solid #254334;
+    border-radius: 2vw;
+  }
+  .mid-img {
+    width: 1.6vw;
+  }
+  .text-smaller {
+    font-size: 1vw;
+  }
+  .card-line {
+    color: green;
+    margin: 2%;
+  }
+  .card-footer {
+    padding: 8vh 1vw 4vh 3vw;
+  }
+  .card-date {
+    margin-top: 1vh;
+    color: greenyellow;
+  }
+  .card-large {
+    margin-top: 2vh;
+    font-size: 1.2vw;
+  }
+  .card-end {
+    margin-top: 2vh;
+    color: green;
+  }
+  #button-secondary {
+    text-align: center;
+    margin: 5vh;
+  }
+  #button-secondary a {
+    font-size: 1.2vw;
+    padding: 1vh;
+  }
+  .row-container {
+    padding: 10vh 15vw;
+    background: #070620;
+  }
+  .container-info {
+    display: flex;
+    justify-content: space-between;
+    border: 2px #254334 solid;
+    padding: 2% 5%;
+  }
+  .row-head {
+    text-align: center;
+    font-size: 3.5vw;
+  }
+  .row-content {
+    background: rgb(105, 152, 55);
+    margin-left: 1vw;
+    width: fit-content;
+    border-radius: 2vw;
+    padding: 5%;
+    font-size: 0.5vw;
+  }
+  .footer-outer {
+    background-color: #06172e;
+    height: 10vh;
+  }
+  .footer-begin {
+    padding: 2vh 12vw;
+    padding-bottom: 10vh;
+    background: #070620;
+  }
+  .footer-container {
+    background: green;
+    border-radius: 1vw;
+    display: flex;
+    padding: 3%;
+  }
+  .footer-left {
+    width: 50%;
+  }
+  .footer-large {
+    font-size: 2vw;
+  }
+  .footer-medium {
+    font-size: 1vw;
+  }
+  .footer-right {
+    display: flex;
+    margin-top: 3vh;
+    background: white;
+    border-radius: 0.6vw;
+    padding: 1%;
+    margin-left: 4vw;
+  }
+  .button-outer {
+    display: flex;
+    background: black;
+    border-radius: 0.4vw;
+    padding: 2% 1%;
+  }
+  .input {
+    border: none;
+    color: green;
+  }
+  .right-button {
+    font-size: 1.3vw;
+  }
+  #button-img {
+    height: 2.2vh;
+    width: 1.3vw;
+    margin-top: 0.4vh;
+    color: white;
+  }
+  .footer-end {
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    grid-gap: 1vw;
+  }
+  .footer-header {
+    margin-bottom: 5vh;
+  }
+  .sub-header {
+    color: greenyellow;
+    margin: 2vh 0;
+    font-size: 1.3vw;
+  }
+  .header-items p {
+    margin: 2vh 0;
+  }
+  .bottom {
+    width: 20vw;
+  }
+  
+  @media screen and (max-width: 600px) {
+    header {
+      padding: 2vh 8vw;
+    }
+    .highlight {
+      border-radius: 5px;
+    }
+    #nav-title {
+      font-size: 3.2vw;
+    }
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .navbar a {
+      font-size: 1.8vw;
+    }
+    .nav-button a {
+      font-size: 1.9vw;
+    }
+    .navbar a:hover {
+      border-radius: 5px;
+    }
+    select {
+      font-size: 1.8vw;
+    }
+    .nav-drop:hover {
+      border-radius: 5px;
+    }
+    .primary-section {
+      padding: 2vh 8vw;
+      flex-direction: column;
+      align-items: center;
+    }
+    .secondary-section {
+      padding: 2vh 8vw;
+      flex-direction: column;
+      align-items: center;
+    }
+    .primary-content {
+      text-align: center;
+    }
+    .text-medium {
+      font-size: 3.2vw;
+    }
+    .text-large {
+      margin-top: 1vh;
+      font-size: 6vw;
+    }
+    .button-primary {
+      text-align: center;
+    }
+    #primary-img {
+      width: 70vw;
+    }
+    #secondary-img {
+      margin: 3vh 0;
+      width: 65vw;
+    }
+    .secondary-content {
+      text-align: center;
+    }
+    .ternary-section {
+      padding: 2vh 5vw;
+    }
+    .ternary-description {
+      margin: 0 13vw;
+    }
+    .container {
+      grid-template-columns: auto;
+      grid-gap: 3vh;
+    }
+    .card-main {
+      padding: 2vh 0vw 15vh 10vw;
+    }
+    .card-img {
+      width: 20vw;
+    }
+    .card-mid {
+      margin: 4vh 15vw;
+      padding: 3vh 6vw;
+      width: 20vw;
+    }
+    .text-smaller {
+      font-size: 2.5vw;
+    }
+    .text-small {
+      font-size: 2vw;
+    }
+    .mid-img {
+      width: 3.2vw;
+    }
+    .card-footer {
+      padding: 10vh 0 4vh 10vw;
+    }
+    .card-date {
+      font-size: 2.5vw;
+    }
+    .card-large {
+      font-size: 4.2vw;
+    }
+    .card-end {
+      font-size: 2.5vw;
+    }
+    #button-secondary a {
+      font-size: 3vw;
+    }
+    .row-container {
+      padding: 5vh 5vw;
+    }
+    .row-head {
+      text-align: center;
+      font-size: 4.7vw;
+    }
+    .row-content {
+      font-size: 0.7vw;
+    }
+    .footer-begin {
+      padding: 2vh 5vw;
+    }
+    .footer-container {
+      flex-direction: column;
+    }
+    .footer-left {
+      width: 100%;
+      text-align: center;
+    }
+    .footer-large {
+      font-size: 4vw;
+    }
+    .footer-medium {
+      margin-top: 1vh;
+      font-size: 2.5vw;
+    }
+    .footer-right {
+      padding: 1%;
+      margin: 2vh 10vw;
+      flex-direction: column;
+      align-items: center;
+      background-color: green;
+    }
+    .input {
+      background-color: white;
+      padding: 2%;
+    }
+    .button-outer {
+      border-radius: 0.4vw;
+      margin-top: 1vh;
+      width: 25%;
+    }
+    .right-button {
+      font-size: 2.3vw;
+    }
+    .footer-end {
+      grid-template-columns: auto auto;
+      grid-gap: 6vh;
+    }
+    .footer-header {
+      font-size: 3.4vw;
+    }
+    .header-content {
+      font-size: 2.2vw;
+    }
+    .sub-header {
+      font-size: 2.6vw;
+    }
+  }
